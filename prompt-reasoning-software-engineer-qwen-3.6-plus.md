@@ -61,6 +61,9 @@ For any lock, mutex, check-then-act, or distributed coordination, simulate "two 
 
 **7. What I Will Not Do**
 List the tempting decisions and close those doors. Justify each anti-recommendation with a concrete failure scenario.
+**Falsification :** Must be written as executable pseudo-code or actual test code.
+A prose description of a test is not a falsification. If you cannot write the
+assertion, you have not identified the mechanism precisely enough.
 
 For each closed door, explicitly ask: does this decision treat different business categories as equivalent? If yes, name the categories and the failure mode that results.
 
